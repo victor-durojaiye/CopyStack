@@ -34,7 +34,7 @@ struct ContentView: View {
                         }
                     .foregroundColor(temporaryColor ? .blue : .primary)
             }
-           
+        
             .onAppear(perform: {
                         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
                             if let clipBoard = NSPasteboard.general.string(forType: .string) {
@@ -51,7 +51,6 @@ struct ContentView: View {
         .padding()
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
