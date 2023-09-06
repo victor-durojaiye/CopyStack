@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  CopyFlow
+//  CopyStack
 //
-//  Created by Victor Durojaiye on 8/22/23.
+//  Created by Victor Durojaiye on 9/6/23.
 //
 
 import SwiftUI
